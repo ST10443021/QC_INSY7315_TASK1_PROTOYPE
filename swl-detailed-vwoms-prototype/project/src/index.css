@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hide scrollbars by default, show on hover */
+.scroll-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Signature canvas */
+.signature-canvas {
+  cursor: crosshair;
+  touch-action: none;
+}
+
+/* Stage badge colors */
+.badge-booked { background: #EDE9FE; color: #7C3AED; }
+.badge-arrived { background: #FEF3C7; color: #D97706; }
+.badge-intake { background: #CCFBF1; color: #0891B2; }
+.badge-inprogress { background: #FFEDD5; color: #EA580C; }
+.badge-qc { background: #F3E8FF; color: #9333EA; }
+.badge-ready { background: #DCFCE7; color: #16A34A; }
+.badge-collected { background: #F3F4F6; color: #6B7280; }
+
+/* Pipeline dot colors */
+.pipeline-booked { color: #7C3AED; border-color: #7C3AED; }
+.pipeline-arrived { color: #D97706; border-color: #D97706; }
+.pipeline-intake { color: #0891B2; border-color: #0891B2; }
+.pipeline-inprogress { color: #EA580C; border-color: #EA580C; }
+.pipeline-qc { color: #9333EA; border-color: #9333EA; }
+.pipeline-ready { color: #16A34A; border-color: #16A34A; }
+.pipeline-collected { color: #6B7280; border-color: #6B7280; }
+
+@theme {
+  --color-swl-red: #CC1F1F;
+  --color-swl-dark: #111827;
+}
