@@ -124,7 +124,7 @@ export default function App() {
         </div>
 
         <div className="mt-10 text-center text-xs text-gray-600">
-          <p>Quantum Coders · University of Pretoria · INSY7315 Task 1 Prototype</p>
+          <p>Quantum Coders · Emeris University · INSY7315 Task 1 Prototype</p>
         </div>
       </main>
     </div>
